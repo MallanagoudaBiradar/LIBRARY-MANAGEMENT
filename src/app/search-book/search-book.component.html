@@ -1,0 +1,17 @@
+<form [formGroup]="loginForm" (ngSubmit)="loginUser()">
+    <label  class="form-label" >Book Name</label>
+    <br>
+    <input type="text"  name="Name of The Book" placeholder="Name of the Book" formControlName="user">
+    <br>
+    <span style="color: red;" *ngIf="user && user.invalid">This field is not valid</span>
+    <br>
+    <label  class="form-label" style="font-style:bold;">Book Code</label>
+    <br>
+    <input type="number"  name="Book code" placeholder="Code" formControlName="Code">
+    <br>
+    <span style="color: red;" *ngIf="user && user.invalid">This field is not valid</span>
+    <br>
+   
+    <button  >Search Here</button>
+
+</form>

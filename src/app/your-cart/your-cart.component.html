@@ -1,0 +1,9 @@
+<h1>Your Cart</h1>
+<br>
+<input type="text" placeholder="Search Book Here" #task>
+<br>
+<button (click)="addTask(task.value)">Add Book</button>
+<br>
+<ul *ngFor="let item of list">
+  <li>{{item.name}} <button (click)="removeTask(item.id)">remove</button></li>
+</ul>

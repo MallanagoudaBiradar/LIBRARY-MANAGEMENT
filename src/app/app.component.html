@@ -1,0 +1,45 @@
+<nav class="navbar navbar-expand-lg bg-primary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#" style="color: white;">Book Store</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" style="color: white;" routerLink="/edit-book">book-detail</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: white;" routerLink="/add-book">Add Book</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" style="color: white;" routerLink="book-list">book-list</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" style="color: white;" routerLink="search-book">search-book</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" style="color: white;" routerLink="your-cart">your-cart</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" style="color: white;" routerLink="/registration">registration-form</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" style="color: white;" routerLink="/student">Student</a>
+        </li>
+      </ul>
+      <span class="navbar-text text-bold" style="color: white;">
+        Developed by MB
+      </span>
+    </div>
+  </div>
+</nav>
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">library Book Store</h1>
+    <p class="lead">Please Cooperate</p>
+  </div>
+</div>
+
+<router-outlet></router-outlet>
+

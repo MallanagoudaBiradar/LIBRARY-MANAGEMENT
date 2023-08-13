@@ -1,0 +1,85 @@
+{
+  "posts": [
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "firstname": "sds",
+      "id": 4
+    },
+    {
+      "firstname": "dsd",
+      "lastname": "sds",
+      "Address": "dsds",
+      "Course": "sdsd",
+      "Email": "sdsd",
+      "id": 5
+    },
+    {
+      "firstname": "gourish",
+      "lastname": "naik",
+      "Address": "old goa",
+      "password": "gourish",
+      "Email": "dsdsa@gmail.com",
+      "id": 6
+    },
+    {
+      "firstname": "Rahul",
+      "lastname": "Biradar",
+      "Address": "Behind autopsy swami temple Kalyan Nagar Takke Road Vijayapur",
+      "password": "12345",
+      "Email": "k@",
+      "id": 7
+    },
+    {
+      "firstname": "rahul",
+      "lastname": "b",
+      "Address": "Behind ayyapa swami temple Kalyan Nagar Takke Road Vijayapur",
+      "password": "1234",
+      "Email": "rahul@",
+      "id": 8
+    },
+    {
+      "firstname": "goutami",
+      "lastname": "d",
+      "Address": "bldea",
+      "password": "12345",
+      "Email": "goutami@",
+      "id": 9
+    },
+    {
+      "firstname": "Rahul",
+      "lastname": "Biradar",
+      "Address": "Behind autopsy swami temple Kalyan Nagar Takke Road Vijayapur",
+      "password": "12345",
+      "Email": "ra@",
+      "id": 10
+    },
+    {
+      "firstname": "Rahul",
+      "lastname": "Biradar",
+      "Address": "Behind autopsy swami temple Kalyan Nagar Takke Road Vijayapur",
+      "password": "12345",
+      "Email": "rahul@",
+      "id": 11
+    },
+    {
+      "firstname": "Rahul",
+      "lastname": "Biradar",
+      "Address": "Behind autopsy swami temple Kalyan Nagar Takke Road Vijayapur",
+      "password": "586102",
+      "Email": "pawan@123",
+      "id": 12
+    }
+  ],
+  "students": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
